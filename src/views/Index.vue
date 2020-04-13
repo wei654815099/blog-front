@@ -1,5 +1,11 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div style="background:#eee;padding: 20px">
+    <Card :bordered="false">
+      <p slot="title">No border title</p>
+      <p>
+        <!-- eslint-disable-next-line -->
+        Content of no border type. Content of no border type. Content of no border type. Content of no border type.
+      </p>
+    </Card>
   </div>
 </template>
